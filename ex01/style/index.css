@@ -1,21 +1,22 @@
 h1 {
     text-align: center;
     color: red;
-    padding-right: 150px;
 }
 h2 {
     color: lightblue;
 }
 .container {
-    display: inline-block;
-    width: 100%;
-    margin: auto;
-    padding-left: 150px;
+    display: -ms-inline-grid;
+    max-width: 90%;
+    margin: 0%;
+    padding-left: 15px;
+    object-fit: contain;
 }
 .row1 {
     display: inline-flex;
     width: 100%;
     margin: 0px;
+    object-fit: contain;
 }
 .row2 {
     display: inline-flex;
@@ -34,8 +35,10 @@ p {
     display: inline-block;
     padding: 25px;
     margin: auto;
+    object-fit: contain;
 }
 .text {
     width: 90%;
     margin: auto;
+    object-fit: contain;
 }
